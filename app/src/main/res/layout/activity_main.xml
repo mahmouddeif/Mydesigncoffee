@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backGroundActivity"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/backUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_20"
+        android:layout_marginStart="@dimen/margin_15"
+        android:src="@drawable/ic_baseline_keyboard_backspace_24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/appCompatTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_20"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="@string/details"
+        android:textColor="@color/black"
+        android:textSize="@dimen/medium_text_size"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/appCompatImageView"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="@dimen/margin_20"
+        android:src="@drawable/cake"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.900"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/myCard"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="@dimen/margin_120"
+        android:backgroundTint="@color/backGroundImageAndSomeButtons"
+        app:cardCornerRadius="200dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appCompatTextView" />
+
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="300dp"
+        android:layout_height="370dp"
+        android:layout_marginStart="@dimen/margin_15"
+        android:layout_marginTop="@dimen/margin_12"
+        android:elevation="5dp"
+        android:src="@drawable/coffe"
+        app:layout_constraintBottom_toBottomOf="@+id/myCard"
+        app:layout_constraintEnd_toEndOf="@+id/myCard"
+        app:layout_constraintStart_toStartOf="@+id/myCard"
+        app:layout_constraintTop_toBottomOf="@+id/appCompatTextView" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_16"
+        android:layout_marginTop="@dimen/margin_430"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/caramel"
+        android:textColor="@color/black"
+        android:textSize="@dimen/very_large_text_size"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_16"
+        android:layout_marginTop="@dimen/margin_470"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/frappuccino"
+        android:textColor="@color/black"
+        android:textSize="@dimen/very_large_text_size"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_290"
+        android:layout_marginTop="@dimen/margin_440"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/_30_00"
+        android:textColor="@color/backGroundImageAndSomeButtons"
+        android:textSize="@dimen/very_large_text_size"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_328"
+        android:layout_marginTop="@dimen/margin_480"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/best_sales"
+        android:textColor="@color/GrayForFont"
+        android:textSize="@dimen/very_small_text_size"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_15"
+        android:layout_marginTop="@dimen/margin_520"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/size_options"
+        android:textColor="@color/GrayForFont"
+        android:textSize="@dimen/small_16_text_size"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/line"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_end="197dp" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/appCompatImageView9"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/shape_circle_for_cup"
+        android:padding="@dimen/normal_padding"
+        android:src="@drawable/cup"
+        android:layout_marginStart="@dimen/margin_15"
+        app:layout_constraintTop_toBottomOf="@id/line"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
+        app:layout_constraintEnd_toStartOf="@+id/appCompatImageView8"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/appCompatImageView8"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/shape_circle_for_cup"
+        android:padding="@dimen/normal_padding"
+        android:src="@drawable/cup"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
+        app:layout_constraintEnd_toStartOf="@+id/appCompatImageView10"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/appCompatImageView9"
+        app:layout_constraintTop_toBottomOf="@id/line" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/appCompatImageView10"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/shape_circle_for_cup_selected"
+        android:padding="@dimen/normal_padding"
+        android:src="@drawable/cup"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
+        app:layout_constraintEnd_toStartOf="@+id/appCompatImageView11"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/appCompatImageView8"
+        app:layout_constraintTop_toBottomOf="@id/line" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/appCompatImageView11"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/shape_circle_for_cup"
+        android:padding="@dimen/normal_padding"
+        android:src="@drawable/cup"
+        android:layout_marginEnd="@dimen/margin_16"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/appCompatImageView10"
+        app:layout_constraintTop_toBottomOf="@id/line" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tall"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@color/black"
+        android:textSize="@dimen/small_text_size"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="@dimen/margin_24"
+        android:layout_marginTop="@dimen/margin_600"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_12_fi_oz"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@color/GrayForFont"
+        android:textSize="@dimen/small_text_size"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="@dimen/margin_14"
+        android:layout_marginTop="@dimen/margin_616"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/grande"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@color/black"
+        android:textSize="@dimen/small_text_size"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="@dimen/margin_124"
+        android:layout_marginTop="@dimen/margin_600"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_16_fi_oz"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@color/GrayForFont"
+        android:textSize="@dimen/small_text_size"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="@dimen/margin_121"
+        android:layout_marginTop="@dimen/margin_616"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/venti"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@color/black"
+        android:textSize="@dimen/small_text_size"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="@dimen/margin_244"
+        android:layout_marginTop="@dimen/margin_600"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_24_fi_oz"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@color/GrayForFont"
+        android:textSize="@dimen/small_text_size"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="@dimen/margin_233"
+        android:layout_marginTop="@dimen/margin_616"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/custom"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@color/black"
+        android:textSize="@dimen/small_text_size"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="345dp"
+        android:layout_marginTop="600dp"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fi_oz"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@color/GrayForFont"
+        android:textSize="@dimen/small_text_size"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="@dimen/margin_343"
+        android:layout_marginTop="@dimen/margin_616"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/minus"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="@string/minus"
+        android:textColor="@color/white"
+        android:textSize="@dimen/large_text_size"
+        style="@style/CalculatorButton.Operation"
+        android:layout_marginStart="@dimen/margin_14"
+        android:layout_marginTop="@dimen/margin_680"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_1"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@color/black"
+        android:textSize="@dimen/large_25_text_size"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="@dimen/margin_85"
+        android:layout_marginTop="@dimen/margin_685"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/plus"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="@string/plus"
+        android:textColor="@color/white"
+        android:textSize="@dimen/large_text_size"
+        style="@style/CalculatorButton.Operation"
+        android:layout_marginStart="@dimen/margin_120"
+        android:layout_marginTop="@dimen/margin_680"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/order"
+        style="@style/CalculatorButton.Result"
+        android:layout_width="170dp"
+        android:layout_height="64dp"
+        android:text="@string/add_to_order"
+        android:inputType="text"
+        android:textColor="@color/white"
+        android:textSize="@dimen/small_16_text_size"
+        android:fontFamily="sans-serif-black"
+        android:layout_marginStart="@dimen/margin_230"
+        android:layout_marginTop="@dimen/margin_672"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+<!--    padding-->
+    <dimen name="normal_padding">10dp</dimen>
+
+
+    <dimen name="TextButton">18sp</dimen>
+    <dimen name="Radius_Larg">32dp</dimen>
+
+<!--    textSize-->
+    <dimen name="very_small_text_size">12sp</dimen>
+    <dimen name="small_text_size">13sp</dimen>
+    <dimen name="small_16_text_size">16sp</dimen>
+    <dimen name="medium_text_size">20sp</dimen>
+    <dimen name="large_text_size">24sp</dimen>
+    <dimen name="large_25_text_size">25sp</dimen>
+    <dimen name="very_large_text_size">30sp</dimen>
+
+<!--    margin-->
+    <dimen name="margin_20">20dp</dimen>
+    <dimen name="margin_15">15dp</dimen>
+    <dimen name="margin_14">14dp</dimen>
+    <dimen name="margin_12">12dp</dimen>
+    <dimen name="margin_16">16dp</dimen>
+    <dimen name="margin_120">120dp</dimen>
+    <dimen name="margin_121">121dp</dimen>
+    <dimen name="margin_600">600dp</dimen>
+    <dimen name="margin_616">616dp</dimen>
+    <dimen name="margin_430">430dp</dimen>
+    <dimen name="margin_470">470dp</dimen>
+    <dimen name="margin_290">290dp</dimen>
+    <dimen name="margin_420">420dp</dimen>
+    <dimen name="margin_328">328dp</dimen>
+    <dimen name="margin_480">480dp</dimen>
+    <dimen name="margin_520">520dp</dimen>
+    <dimen name="margin_24">24dp</dimen>
+    <dimen name="margin_124">124dp</dimen>
+    <dimen name="margin_244">244dp</dimen>
+    <dimen name="margin_233">233dp</dimen>
+    <dimen name="margin_345">245dp</dimen>
+    <dimen name="margin_433">433dp</dimen>
+    <dimen name="margin_680">680dp</dimen>
+    <dimen name="margin_85">85dp</dimen>
+    <dimen name="margin_685">685dp</dimen>
+    <dimen name="margin_672">672dp</dimen>
+    <dimen name="margin_440">440dp</dimen>
+    <dimen name="margin_343">343dp</dimen>
+    <dimen name="margin_230">230dp</dimen>
+
+
+</resources>
